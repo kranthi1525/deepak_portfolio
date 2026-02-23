@@ -396,8 +396,8 @@ body {
 }
 
 
-/* Vikas About Me Section Styles */
-.vikas-about-section {
+/* deepak About Me Section Styles */
+.deepak-about-section {
     max-width: 1200px;
     margin: 120px auto;
     padding: 0 20px;
@@ -407,13 +407,13 @@ body {
     align-items: center;
 }
 
-.vikas-about-content {
+.deepak-about-content {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.vikas-section-label {
+.deepak-section-label {
     font-size: 1rem;
     color: #F76300;
     font-weight: 600;
@@ -422,7 +422,7 @@ body {
     margin-bottom: 10px;
 }
 
-.vikas-about-title {
+.deepak-about-title {
     font-size: 3rem;
     font-weight: 700;
     color: #ffffff;
@@ -430,28 +430,28 @@ body {
     line-height: 1.2;
 }
 
-.vikas-about-title span {
+.deepak-about-title span {
     background: linear-gradient(135deg, #F76300, #FFA726);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
-.vikas-about-text {
+.deepak-about-text {
     font-size: 1.1rem;
     color: #cccccc;
     line-height: 1.8;
     margin-bottom: 20px;
 }
 
-.vikas-skills {
+.deepak-skills {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
     margin: 30px 0;
 }
 
-.vikas-skill-tag {
+.deepak-skill-tag {
     background: rgba(247, 99, 0, 0.1);
     color: #F76300;
     padding: 8px 16px;
@@ -462,13 +462,13 @@ body {
     transition: all 0.3s ease;
 }
 
-.vikas-skill-tag:hover {
+.deepak-skill-tag:hover {
     background: #F76300;
     color: #121212;
     transform: translateY(-2px);
 }
 
-.vikas-download-resume {
+.deepak-download-resume {
     background: linear-gradient(135deg, #F76300, #FFA726);
     color: #121212;
     padding: 15px 35px;
@@ -484,25 +484,25 @@ body {
     box-shadow: 0 8px 25px rgba(247, 99, 0, 0.3);
 }
 
-.vikas-download-resume:hover {
+.deepak-download-resume:hover {
     transform: translateY(-3px);
     box-shadow: 0 12px 35px rgba(247, 99, 0, 0.4);
 }
 
-.vikas-download-resume::after {
+.deepak-download-resume::after {
     content: '↓';
     font-size: 1.2rem;
     font-weight: bold;
 }
 
-.vikas-about-image {
+.deepak-about-image {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.vikas-about-image-container {
+.deepak-about-image-container {
     width: 450px;
     height: 500px;
     border-radius: 20px;
@@ -515,60 +515,60 @@ body {
     transition: all 0.3s ease;
 }
 
-.vikas-about-image-container:hover {
+.deepak-about-image-container:hover {
     transform: rotate(0deg) scale(1.02);
     box-shadow: 0 30px 60px rgba(247, 99, 0, 0.3);
 }
 
-.vikas-about-image img {
+.deepak-about-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 18px;
 }
 
-/* Mobile Responsiveness for Vikas About */
+/* Mobile Responsiveness for deepak About */
 @media (max-width: 768px) {
-    .vikas-about-section {
+    .deepak-about-section {
         grid-template-columns: 1fr;
         gap: 50px;
         margin: 80px auto;
     }
 
-    .vikas-about-content {
+    .deepak-about-content {
         order: 2;
         text-align: center;
     }
 
-    .vikas-about-image {
+    .deepak-about-image {
         order: 1;
     }
 
-    .vikas-about-title {
+    .deepak-about-title {
         font-size: 2.2rem;
     }
 
-    .vikas-about-image-container {
+    .deepak-about-image-container {
         width: 320px;
         height: 380px;
     }
 
-    .vikas-skills {
+    .deepak-skills {
         justify-content: center;
     }
 }
 
 @media (max-width: 480px) {
-    .vikas-about-title {
+    .deepak-about-title {
         font-size: 1.8rem;
     }
 
-    .vikas-about-image-container {
+    .deepak-about-image-container {
         width: 280px;
         height: 340px;
     }
 
-    .vikas-download-resume {
+    .deepak-download-resume {
         padding: 12px 28px;
         font-size: 14px;
     }
@@ -578,19 +578,19 @@ body {
 
 /* project styles */
 
-/* Vikas Projects Section */
-.vikas-projects-section {
+/* deepak Projects Section */
+.deepak-projects-section {
     max-width: 1200px;
     margin: 120px auto;
     padding: 0 20px;
 }
 
-.vikas-projects-header {
+.deepak-projects-header {
     text-align: center;
     margin-bottom: 80px;
 }
 
-.vikas-section-label {
+.deepak-section-label {
     font-size: 1rem;
     color: #F76300;
     font-weight: 600;
@@ -599,7 +599,7 @@ body {
     margin-bottom: 15px;
 }
 
-.vikas-projects-title {
+.deepak-projects-title {
     font-size: 3.5rem;
     font-weight: 700;
     color: #ffffff;
@@ -607,14 +607,14 @@ body {
     line-height: 1.2;
 }
 
-.vikas-projects-title span {
+.deepak-projects-title span {
     background: linear-gradient(135deg, #F76300, #FFA726);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
-.vikas-projects-subtitle {
+.deepak-projects-subtitle {
     font-size: 1.2rem;
     color: #cccccc;
     max-width: 600px;
@@ -622,14 +622,14 @@ body {
     line-height: 1.6;
 }
 
-.vikas-projects-grid {
+.deepak-projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 40px;
     margin-top: 60px;
 }
 
-.vikas-project-card {
+.deepak-project-card {
     background: linear-gradient(135deg, #1a1a1a, #262626);
     border-radius: 20px;
     overflow: hidden;
@@ -639,13 +639,13 @@ body {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
-.vikas-project-card:hover {
+.deepak-project-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 25px 50px rgba(247, 99, 0, 0.2);
     border-color: rgba(247, 99, 0, 0.3);
 }
 
-.vikas-project-card::before {
+.deepak-project-card::before {
     content: '';
     position: absolute;
     top: 0;
@@ -657,29 +657,29 @@ body {
     transition: transform 0.4s ease;
 }
 
-.vikas-project-card:hover::before {
+.deepak-project-card:hover::before {
     transform: scaleX(1);
 }
 
-.vikas-project-image {
+.deepak-project-image {
     position: relative;
     height: 250px;
     overflow: hidden;
     background: linear-gradient(135deg, #2a2a2a, #1a1a1a);
 }
 
-.vikas-project-image img {
+.deepak-project-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.4s ease;
 }
 
-.vikas-project-card:hover .vikas-project-image img {
+.deepak-project-card:hover .deepak-project-image img {
     transform: scale(1.1);
 }
 
-.vikas-project-overlay {
+.deepak-project-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -693,16 +693,16 @@ body {
     transition: opacity 0.4s ease;
 }
 
-.vikas-project-card:hover .vikas-project-overlay {
+.deepak-project-card:hover .deepak-project-overlay {
     opacity: 1;
 }
 
-.vikas-project-links {
+.deepak-project-links {
     display: flex;
     gap: 15px;
 }
 
-.vikas-project-link {
+.deepak-project-link {
     background: rgba(255, 255, 255, 0.2);
     color: #ffffff;
     padding: 12px;
@@ -713,37 +713,37 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.vikas-project-link:hover {
+.deepak-project-link:hover {
     background: rgba(255, 255, 255, 0.3);
     transform: scale(1.1);
 }
 
-.vikas-project-content {
+.deepak-project-content {
     padding: 30px;
 }
 
-.vikas-project-title {
+.deepak-project-title {
     font-size: 1.5rem;
     font-weight: 600;
     color: #ffffff;
     margin-bottom: 15px;
 }
 
-.vikas-project-description {
+.deepak-project-description {
     color: #cccccc;
     font-size: 1rem;
     line-height: 1.6;
     margin-bottom: 25px;
 }
 
-.vikas-project-tech {
+.deepak-project-tech {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     margin-bottom: 20px;
 }
 
-.vikas-tech-tag {
+.deepak-tech-tag {
     background: rgba(247, 99, 0, 0.1);
     color: #F76300;
     padding: 6px 12px;
@@ -753,7 +753,7 @@ body {
     border: 1px solid rgba(247, 99, 0, 0.2);
 }
 
-.vikas-project-status {
+.deepak-project-status {
     display: inline-flex;
     align-items: center;
     gap: 8px;
@@ -766,7 +766,7 @@ body {
     border: 1px solid rgba(76, 175, 80, 0.3);
 }
 
-.vikas-status-dot {
+.deepak-status-dot {
     width: 8px;
     height: 8px;
     background: #4CAF50;
@@ -789,13 +789,13 @@ body {
 }
 
 /* View All Projects Button */
-.vikas-view-all {
+.deepak-view-all {
     display: flex;
     justify-content: center;
     margin-top: 60px;
 }
 
-.vikas-view-all-btn {
+.deepak-view-all-btn {
     background: linear-gradient(135deg, #F76300, #FFA726);
     color: #121212;
     padding: 15px 40px;
@@ -808,12 +808,12 @@ body {
     overflow: hidden;
 }
 
-.vikas-view-all-btn:hover {
+.deepak-view-all-btn:hover {
     transform: translateY(-3px);
     box-shadow: 0 12px 35px rgba(247, 99, 0, 0.4);
 }
 
-.vikas-view-all-btn::before {
+.deepak-view-all-btn::before {
     content: '';
     position: absolute;
     top: 0;
@@ -824,69 +824,69 @@ body {
     transition: left 0.5s ease;
 }
 
-.vikas-view-all-btn:hover::before {
+.deepak-view-all-btn:hover::before {
     left: 100%;
 }
 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
-    .vikas-projects-section {
+    .deepak-projects-section {
         margin: 80px auto;
         padding: 0 15px;
     }
 
-    .vikas-projects-title {
+    .deepak-projects-title {
         font-size: 2.5rem;
     }
 
-    .vikas-projects-grid {
+    .deepak-projects-grid {
         grid-template-columns: 1fr;
         gap: 30px;
         margin-top: 40px;
     }
 
-    .vikas-project-image {
+    .deepak-project-image {
         height: 200px;
     }
 
-    .vikas-project-content {
+    .deepak-project-content {
         padding: 20px;
     }
 
-    .vikas-projects-header {
+    .deepak-projects-header {
         margin-bottom: 50px;
     }
 }
 
 @media (max-width: 480px) {
-    .vikas-projects-title {
+    .deepak-projects-title {
         font-size: 2rem;
     }
 
-    .vikas-projects-subtitle {
+    .deepak-projects-subtitle {
         font-size: 1rem;
     }
 
-    .vikas-project-title {
+    .deepak-project-title {
         font-size: 1.3rem;
     }
 
-    .vikas-view-all-btn {
+    .deepak-view-all-btn {
         padding: 12px 30px;
         font-size: 14px;
     }
 }
 
 
-/* Vikas Contact Section */
-.vikas-contact-section {
+/* deepak Contact Section */
+.deepak-contact-section {
     max-width: 100%;
     margin: 0 auto;
     padding: 0 0px;
     position: relative;
 }
 
-.vikas-contact-container {
+.deepak-contact-container {
     /* background: linear-gradient(135deg, #1a1a1a, #262626); */
     border-radius: 30px;
     padding: 80px 60px;
@@ -896,7 +896,7 @@ body {
     box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
 }
 
-/* .vikas-contact-container::before {
+/* .deepak-contact-container::before {
     content: '';
     position: absolute;
     top: 0;
@@ -906,7 +906,7 @@ body {
     background: linear-gradient(135deg, #F76300, #FFA726);
 } */
 
-.vikas-contact-container::after {
+.deepak-contact-container::after {
     content: '';
     position: absolute;
     top: -50%;
@@ -928,14 +928,14 @@ body {
     }
 }
 
-.vikas-contact-header {
+.deepak-contact-header {
     text-align: center;
     margin-bottom: 60px;
     position: relative;
     z-index: 2;
 }
 
-.vikas-section-label {
+.deepak-section-label {
     font-size: 1rem;
     color: #F76300;
     font-weight: 600;
@@ -944,7 +944,7 @@ body {
     margin-bottom: 15px;
 }
 
-.vikas-contact-title {
+.deepak-contact-title {
     font-size: 3.5rem;
     font-weight: 700;
     color: #ffffff;
@@ -952,14 +952,14 @@ body {
     line-height: 1.2;
 }
 
-.vikas-contact-title span {
+.deepak-contact-title span {
     background: linear-gradient(135deg, #F76300, #FFA726);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
-.vikas-contact-subtitle {
+.deepak-contact-subtitle {
     font-size: 1.2rem;
     color: #cccccc;
     max-width: 600px;
@@ -967,7 +967,7 @@ body {
     line-height: 1.6;
 }
 
-.vikas-contact-content {
+.deepak-contact-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 60px;
@@ -976,13 +976,13 @@ body {
     z-index: 2;
 }
 
-.vikas-contact-info {
+.deepak-contact-info {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
-.vikas-contact-item {
+.deepak-contact-item {
     display: flex;
     align-items: center;
     gap: 20px;
@@ -993,13 +993,13 @@ body {
     transition: all 0.3s ease;
 }
 
-.vikas-contact-item:hover {
+.deepak-contact-item:hover {
     background: rgba(247, 99, 0, 0.1);
     border-color: rgba(247, 99, 0, 0.3);
     transform: translateX(10px);
 }
 
-.vikas-contact-icon {
+.deepak-contact-icon {
     width: 50px;
     height: 50px;
     background: linear-gradient(135deg, #F76300, #FFA726);
@@ -1012,48 +1012,48 @@ body {
     flex-shrink: 0;
 }
 
-.vikas-contact-details h4 {
+.deepak-contact-details h4 {
     color: #ffffff;
     font-size: 1.1rem;
     font-weight: 600;
     margin-bottom: 5px;
 }
 
-.vikas-contact-details p {
+.deepak-contact-details p {
     color: #cccccc;
     font-size: 1rem;
 }
 
-.vikas-contact-details a {
+.deepak-contact-details a {
     color: #F76300;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
-.vikas-contact-details a:hover {
+.deepak-contact-details a:hover {
     color: #FFA726;
 }
 
-.vikas-social-links {
+.deepak-social-links {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.vikas-social-title {
+.deepak-social-title {
     font-size: 1.5rem;
     font-weight: 600;
     color: #ffffff;
     margin-bottom: 10px;
 }
 
-.vikas-social-grid {
+.deepak-social-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
 }
 
-.vikas-social-link {
+.deepak-social-link {
     display: flex;
     align-items: center;
     gap: 12px;
@@ -1067,41 +1067,41 @@ body {
     font-weight: 500;
 }
 
-.vikas-social-link:hover {
+.deepak-social-link:hover {
     background: rgba(247, 99, 0, 0.1);
     color: #F76300;
     border-color: rgba(247, 99, 0, 0.3);
     transform: translateY(-2px);
 }
 
-.vikas-social-icon {
+.deepak-social-icon {
     width: 24px;
     height: 24px;
     flex-shrink: 0;
 }
 
-.vikas-cta-section {
+.deepak-cta-section {
     margin-top: 50px;
     text-align: center;
     position: relative;
     z-index: 2;
 }
 
-.vikas-cta-text {
+.deepak-cta-text {
     font-size: 1.3rem;
     color: #ffffff;
     margin-bottom: 30px;
     font-weight: 500;
 }
 
-.vikas-cta-buttons {
+.deepak-cta-buttons {
     display: flex;
     gap: 20px;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.vikas-cta-btn {
+.deepak-cta-btn {
     padding: 15px 35px;
     border-radius: 30px;
     font-weight: 600;
@@ -1111,30 +1111,30 @@ body {
     overflow: hidden;
 }
 
-.vikas-cta-primary {
+.deepak-cta-primary {
     background: linear-gradient(135deg, #F76300, #FFA726);
     color: #121212;
     box-shadow: 0 8px 25px rgba(247, 99, 0, 0.3);
 }
 
-.vikas-cta-primary:hover {
+.deepak-cta-primary:hover {
     transform: translateY(-3px);
     box-shadow: 0 12px 35px rgba(247, 99, 0, 0.4);
 }
 
-.vikas-cta-secondary {
+.deepak-cta-secondary {
     background: transparent;
     color: #F76300;
     border: 2px solid #F76300;
 }
 
-.vikas-cta-secondary:hover {
+.deepak-cta-secondary:hover {
     background: #F76300;
     color: #121212;
     transform: translateY(-3px);
 }
 
-.vikas-cta-btn::before {
+.deepak-cta-btn::before {
     content: '';
     position: absolute;
     top: 0;
@@ -1145,12 +1145,12 @@ body {
     transition: left 0.5s ease;
 }
 
-.vikas-cta-btn:hover::before {
+.deepak-cta-btn:hover::before {
     left: 100%;
 }
 
 /* Footer Section */
-.vikas-footer {
+.deepak-footer {
     margin-top: 80px;
     padding: 40px 0;
     border-top: 1px solid rgba(247, 99, 0, 0.2);
@@ -1159,12 +1159,12 @@ body {
     z-index: 2;
 }
 
-.vikas-footer-text {
+.deepak-footer-text {
     color: #cccccc;
     font-size: 1rem;
 }
 
-.vikas-footer-heart {
+.deepak-footer-heart {
     color: #F76300;
     animation: heartbeat 2s ease-in-out infinite;
 }
@@ -1193,34 +1193,34 @@ body {
 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
-    .vikas-contact-section {
+    .deepak-contact-section {
         margin: 80px auto;
         padding: 0 15px;
     }
 
-    .vikas-contact-container {
+    .deepak-contact-container {
         padding: 50px 30px;
     }
 
-    .vikas-contact-title {
+    .deepak-contact-title {
         font-size: 2.5rem;
     }
 
-    .vikas-contact-content {
+    .deepak-contact-content {
         grid-template-columns: 1fr;
         gap: 40px;
     }
 
-    .vikas-social-grid {
+    .deepak-social-grid {
         grid-template-columns: 1fr;
     }
 
-    .vikas-cta-buttons {
+    .deepak-cta-buttons {
         flex-direction: column;
         align-items: center;
     }
 
-    .vikas-cta-btn {
+    .deepak-cta-btn {
         width: 100%;
         max-width: 300px;
         text-align: center;
@@ -1228,28 +1228,28 @@ body {
 }
 
 @media (max-width: 480px) {
-    .vikas-contact-container {
+    .deepak-contact-container {
         padding: 40px 20px;
     }
 
-    .vikas-contact-title {
+    .deepak-contact-title {
         font-size: 2rem;
     }
 
-    .vikas-contact-subtitle {
+    .deepak-contact-subtitle {
         font-size: 1rem;
     }
 
-    .vikas-contact-item {
+    .deepak-contact-item {
         padding: 15px;
     }
 
-    .vikas-contact-icon {
+    .deepak-contact-icon {
         width: 40px;
         height: 40px;
     }
 
-    .vikas-cta-btn {
+    .deepak-cta-btn {
         padding: 12px 28px;
         font-size: 14px;
     }
